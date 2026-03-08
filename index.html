@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Universitaria UNGS - Datos Precargados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-glow-2"></div>
+        <div class="hero-inner">
+            <div class="hero-badge">
+                <i class="bi bi-mortarboard-fill"></i>
+                Hecha por y para estudiantes
+            </div>
+            <h1>Agenda Universitaria UNGS<br><span class="accent">Datos Precargados</span></h1>
+            <p>La agenda universitaria con todos tus horarios y datos de cursada ya cargados. Todo lo que necesitás en
+                una sola app.</p>
+            <div class="hero-buttons">
+                <a href="https://drive.google.com/drive/folders/1undizUYV86eKT9B_i96ILJl7ty8pvqUs?usp=sharing"
+                    target="_blank" class="btn-primary-hero">
+                    <i class="bi bi-download"></i> Descargar App
+                </a>
+                <a href="https://github.com/Mentitos/horarios-estudiantiles" target="_blank" class="btn-secondary-hero">
+                    <i class="bi bi-github"></i> Ver en GitHub
+                </a>
+                <button class="btn-demo-hero" onclick="openModal()">
+                    <i class="bi bi-play-circle-fill"></i> Probar Demo Web
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="reveal">
+        <div class="container">
+            <div class="features-header">
+                <div class="section-label">Características</div>
+                <h2 class="section-title">¿Por qué usar una agenda universitaria?</h2>
+                <p class="section-sub">todo lo que necesitas para organizarte, materias, comisiones, horarios,
+                    profesores, parciales y hasta audios</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="bi bi-database-fill-check"></i></div>
+                    <div class="feature-title">Datos Precargados</div>
+                    <p class="feature-text">Materias, horarios y comisiones ya incluidos por defecto. Abrís la app y ya
+                        está todo listo para arrancar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="bi bi-calendar2-week-fill"></i></div>
+                    <div class="feature-title">Vista Semanal Intuitiva</div>
+                    <p class="feature-text">Mirá toda tu semana de un vistazo. Clases, comisiones y turnos organizados
+                        de forma clara y visual.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="bi bi-cursor-fill"></i></div>
+                    <div class="feature-title">Agenda Universitaria</div>
+                    <p class="feature-text">Organizada por carrera y materia. Una herramienta pensada para
+                        simplificar tu cursada diaria en la UNGS.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="bi bi-shield-fill-check"></i></div>
+                    <div class="feature-title">Sin Anuncios, Sin Pagos</div>
+                    <p class="feature-text">100% gratuita y sin publicidad que te interrumpa. Tu atención enfocada en lo
+                        que importa.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="bi bi-code-slash"></i></div>
+                    <div class="feature-title">Open Source</div>
+                    <p class="feature-text">El código es abierto y accesible para todos. Podés ver cómo está hecha,
+                        sugerir mejoras o contribuir en GitHub.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="bi bi-pencil-fill"></i></div>
+                    <div class="feature-title">Personalizable</div>
+                    <p class="feature-text">Personalizá tu agenda con tus materias y comisiones exactas. La app se
+                        adapta a vos, no al revés.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo-section" class="reveal">
+        <div class="demo-glow"></div>
+        <div class="container">
+            <div class="demo-inner">
+                <div class="demo-text">
+                    <div class="section-label" style="color:#7AAEFF;">Así se ve</div>
+                    <h2 class="section-title">Una App que Habla tu Idioma Universitario</h2>
+                    <p class="section-sub">Diseñada pensando en el estudiante moderno. Navegá entre tus materias, días y
+                        comisiones en segundos.</p>
+                    <ul class="demo-checklist">
+                        <li><span class="check"><i class="bi bi-check"></i></span>Horarios de todas tus carreras</li>
+                        <li><span class="check"><i class="bi bi-check"></i></span>Seleccioná tu comisión y ves solo tus
+                            clases</li>
+                        <li><span class="check"><i class="bi bi-check"></i></span>Vista diaria y semanal con colores por
+                            materia</li>
+                        <li><span class="check"><i class="bi bi-check"></i></span>Funciona sin conexión una vez
+                            descargada</li>
+                        <li><span class="check"><i class="bi bi-check"></i></span>Interfaz limpia y sin distracciones
+                        </li>
+                    </ul>
+                </div>
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="carousel-container"
+                            style="flex: 1; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #0D1B3E; width: 100%; height: 100%;">
+                            <div class="carousel-track">
+                                <img src="capturas/Screenshot_20260307-201634.jpg" alt="Captura 1"
+                                    class="carousel-slide active">
+                                <img src="capturas/Screenshot_20260307-201708.jpg" alt="Captura 2"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-201715.jpg" alt="Captura 3"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-201725.jpg" alt="Captura 4"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-201739.jpg" alt="Captura 5"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-201745.jpg" alt="Captura 6"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-201748.jpg" alt="Captura 7"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-202020.jpg" alt="Captura 8"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-202025.jpg" alt="Captura 9"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-202032.jpg" alt="Captura 10"
+                                    class="carousel-slide">
+                                <img src="capturas/Screenshot_20260307-202037.jpg" alt="Captura 11"
+                                    class="carousel-slide">
+                            </div>
+                            <button class="carousel-btn prev-btn" aria-label="Anterior captura">
+                                <i class="bi bi-chevron-left"></i>
+                            </button>
+                            <button class="carousel-btn next-btn" aria-label="Siguiente captura">
+                                <i class="bi bi-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="phone-float-badge">✓ Carreras y<br>materias precargadas</div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="achieved" class="reveal">
+        <div class="container">
+            <div class="achieved-inner">
+                <div>
+                    <div class="section-label">Lo que ya tenés disponible</div>
+                    <h2 class="section-title">Una App que Crece con Vos</h2>
+                    <p class="section-sub">Seguimos mejorando la app continuamente. Estas son algunas de las funciones
+                        que ya podés disfrutar desde el primer día:</p>
+                </div>
+                <div class="goals-grid">
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>Datos universitarios precargados</div>
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>Selección por carrera y comisión</div>
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>Vista semanal y diaria</div>
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>Colores por materia</div>
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>Funciona sin internet</div>
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>Agenda universitaria completa</div>
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>Demo web disponible</div>
+                    <div class="goal-pill"><i class="bi bi-check-circle-fill"></i>100% gratuita y sin ads</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="reveal">
+        <div class="container">
+            <div class="story-card">
+                <span class="quote-mark">"</span>
+                <p class="story-text">"Como estudiante cansado de perder tiempo buscando horarios en otras apps llenas
+                    de
+                    anuncios, el siu guarani o PDFs y anotando todo a mano, decidí crear la app que me hubiera gustado
+                    tener desde el primer día: con todo precargado, simple, sin anuncios y sin pavadas."</p>
+                <div class="story-author">— Matias Gabriel Tello, Creador de la app</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-specs" class="reveal">
+        <div class="container" style="text-align:center;">
+            <h2 class="section-title">Datos Técnicos</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-item-label">Tecnología</div>
+                    <div class="tech-item-value">Flutter</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-label">Lenguaje</div>
+                    <div class="tech-item-value">Dart</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-label">Plataforma principal</div>
+                    <div class="tech-item-value">Android</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-label">También en</div>
+                    <div class="tech-item-value">Web (Solo para visualizar antes de instalar)</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-label">Status</div>
+                    <div class="tech-item-value">Open Source</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cross-promo" class="reveal">
+        <div class="container">
+            <div class="promo-card">
+                <div class="promo-content">
+                    <div class="section-label" style="color: var(--dark); border-color: rgba(13,13,26,0.2);">También te
+                        puede interesar</div>
+                    <div class="promo-header">
+                        <img src="logos/logo.png" alt="Finanzas Libre Logo" class="promo-logo">
+                        <h2 class="promo-title">Finanzas Libre</h2>
+                    </div>
+                    <p class="promo-text">Tomá el control de tu dinero. Una app simple para registrar y analizar tus
+                        gastos e ingresos diarios, sin complicaciones.</p>
+                    <a href="https://mentitos.github.io/finanzaslibre-pagina/" target="_blank" class="btn-promo">Conocer
+                        más <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="https://github.com/Mentitos/horarios-estudiantiles" target="_blank"><i
+                    class="bi bi-github"></i></a>
+        </div>
+        <p>&copy; 2026 Agenda Universitaria Desarrollada por <a href="https://mentitos.github.io/Presentacion/"
+                target="_blank">Matias Gabriel Tello</a></p>
+    </footer>
+
+    <div class="modal-overlay" id="demoModal">
+        <div class="modal-box">
+            <div class="modal-icon">⚠️</div>
+            <h3>Aviso de Demostración</h3>
+            <p>Estás por probar la <strong>versión web demo</strong> de la Agenda Universitaria.</p>
+            <p>Tené en cuenta lo siguiente:</p>
+            <ul>
+                <li><strong>No es la app completa:</strong> algunas funciones pueden estar limitadas o verse diferente.
+                </li>
+                <li><strong>Los datos no se guardan:</strong> al cerrar la pestaña, todo se borra.</li>
+            </ul>
+            <p>Para la experiencia completa, descargá la app desde el botón de arriba.</p>
+            <div class="modal-actions">
+                <button class="modal-cancel" onclick="closeModal()">Cancelar</button>
+                <a href="https://mentitos.github.io/horarios-web/" target="_blank" class="modal-confirm">¡Entendido, ir
+                    a la Demo!</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
