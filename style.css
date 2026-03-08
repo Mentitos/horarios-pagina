@@ -78,7 +78,7 @@ h4,
     font-size: 1.1rem;
 }
 
-/* ─── HERO ─── */
+
 .hero {
     min-height: 100vh;
     background: var(--dark);
@@ -489,7 +489,6 @@ section {
     z-index: 10;
 }
 
-/* ─── GOALS / ACHIEVED ─── */
 #achieved {
     background: var(--white);
 }
@@ -531,7 +530,6 @@ section {
     flex-shrink: 0;
 }
 
-/* ─── STORY ─── */
 #story {
     background: var(--bg);
 }
@@ -567,7 +565,6 @@ section {
     color: var(--blue);
 }
 
-/* ─── TECH SPECS ─── */
 #tech-specs {
     background: var(--dark);
 }
@@ -612,7 +609,6 @@ section {
     color: var(--white);
 }
 
-/* ─── CROSS PROMO ─── */
 #cross-promo {
     background: var(--bg);
 }
